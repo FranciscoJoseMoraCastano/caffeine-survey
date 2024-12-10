@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Caffeine Survey</h1>
+    <p id="description">This is a pointless survey on your preferences about drinks with caffeine.</p>
+
+    <div>
+      <form action="submit" id="survey-form">
+        <label for="text" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="number" id="number-label">How much do you depend on caffeine on a daily basis?:</label>
+        <input type="number" id="number" min="0" max="10" placeholder="Choose a number between 0 and 10">
+
+        <label for="prefered-caffeinated-drink">Choose your preferred caffeinated drink</label>
+        <select name="prefered-caffeinated-drink" id="dropdown">
+          <option value="coffee">Coffee</option>
+          <option value="tea">Tea</option>
+          <option value="none">None</option>
+        </select>
+
+        <label for="intake-preferences">When do you drink it?</label>
+        <div class="checkbox-group">
+          <div>
+            <input type="checkbox" id="morning" name="intake-preferences" value="morning">
+            <label for="morning">In the morning</label>
+          </div>
+          <div>
+            <input type="checkbox" id="evening" name="intake-preferences" value="evening">
+            <label for="evening">In the evening</label>
+          </div>
+          <div>
+            <input type="checkbox" id="never" name="intake-preferences" value="never">
+            <label for="never">Never</label>
+          </div>
+        </div>
+
+        <div class="radio-group">
+          <div>
+            <input type="radio" name="family-habits" id="yes" value="yes">
+            <label for="yes">Yes, someone else does.</label>
+          </div>
+          <div>
+            <input type="radio" name="family-habits" id="no" value="no">
+            <label for="no">Nope, not that I know.</label>
+          </div>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #eaeaea; /* Fondo gris suave */
+    color: #333;
+  }
+  
+  #title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  #description {
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  /* Form Container */
+  div {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34495e; /* Color gris oscuro para las etiquetas */
+    text-align: left;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc; /* Borde gris claro */
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f9f9f9; /* Fondo gris muy claro para los inputs */
+  }
+  
+  /* Input & Select Focus States */
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #3498db; /* Color azul suave para el borde al hacer foco */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Button Styles */
+  button {
+    background: #3498db; /* Color azul suave */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2980b9; /* Color azul más oscuro al pasar el mouse */
+  }
+  
+  /* Textarea */
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+    background: #f9f9f9; /* Fondo gris claro en el textarea */
+  }
+  
+  /* Checkbox and Radio Styles */
+  .checkbox-group, .radio-group {
+    display: flex;
+    flex-direction: row; /* Alineación horizontal */
+    gap: 15px; /* Espacio entre checkbox/radio y su etiqueta */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva línea si es necesario */
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group > div, .radio-group > div {
+    display: flex;
+    align-items: center; /* Alineación vertical de input y label */
+    gap: 5px; /* Espacio entre input y label */
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    margin: 0; /* Eliminar márgenes extra */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+    width: auto; /* Evitar que los inputs se estiren */
+  }
+  
+  label {
+    margin: 0; /* Eliminar márgenes extra */
+    text-align: left; /* Asegura que el texto de los labels esté alineado a la izquierda */
+  }
+  
+  /* Additional Styles for Better Spacing */
+  br {
+    display: none; /* Optional: Adjust this if necessary */
+  }
+  
+  #survey-form {
+    gap: 10px;
+  }
+  
