@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #eaeaea; /* Fondo gris suave */
+  background: #eaeaea; /* Smooth grey background */
   color: #333;
 }
 
@@ -27,48 +27,48 @@ div {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
-  background: #ffffff; /* Fondo blanco para el formulario */
-  padding: 20px 30px; /* Ajustado para más espacio horizontal */
+  background: #ffffff; /* White background for the form */
+  padding: 20px 30px; /* Adjusted for more horizontal space */
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  box-sizing: border-box; /* Asegura que padding no altere el tamaño */
+  box-sizing: border-box; /* Ensures padding does not alter the size */
 }
 
 /* Form Styles */
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Espaciado uniforme entre elementos */
+  gap: 15px; /* Uniform spacing between elements */
 }
 
 label {
   font-weight: bold;
   margin-bottom: 5px;
-  color: #34495e; /* Color gris oscuro para las etiquetas */
+  color: #34495e; /* Dark grey for tags */
   text-align: left;
 }
 
 input, select, textarea, button {
-  width: calc(100% - 20px); /* Ajuste para considerar padding del contenedor */
+  width: calc(100% - 20px); /* Adjested to consider container's padding */
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #dcdcdc; /* Borde gris claro */
+  border: 1px solid #dcdcdc; /* Light grey border */
   border-radius: 5px;
   font-size: 1rem;
-  background: #f9f9f9; /* Fondo gris muy claro para los inputs */
-  box-sizing: border-box; /* Asegura que padding no altere el tamaño */
+  background: #f9f9f9; /* Very light grey background color for inputs */
+  box-sizing: border-box; /* AEnsures padding does not alter the size */
 }
 
 /* Input & Select Focus States */
 input:focus, select:focus, textarea:focus {
   outline: none;
-  border-color: #3498db; /* Color azul suave para el borde al hacer foco */
+  border-color: #3498db; /* Smooth light blue for border on focus */
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
 
 /* Button Styles */
 button {
-  background: #3498db; /* Color azul suave */
+  background: #3498db; /* Smooth blue color */
   color: #fff;
   font-weight: bold;
   border: none;
@@ -77,45 +77,40 @@ button {
 }
 
 button:hover {
-  background: #2980b9; /* Color azul más oscuro al pasar el mouse */
+  background: #2980b9; /* Darker blue when hovering */
 }
 
 /* Textarea */
 textarea {
   resize: vertical;
   min-height: 100px;
-  background: #f9f9f9; /* Fondo gris claro en el textarea */
+  background: #f9f9f9; /* Light grey background for textarea */
 }
 
 /* Checkbox and Radio Styles */
 .checkbox-group, .radio-group {
   display: flex;
-  flex-direction: row; /* Alineación horizontal */
-  gap: 15px; /* Espacio entre checkbox/radio y su etiqueta */
-  flex-wrap: wrap; /* Permite que los elementos se muevan a una nueva línea si es necesario */
+  flex-direction: row; /* Horizontal alignment */
+  gap: 15px; /* Spacing between checkbox/radio and its label */
+  flex-wrap: wrap; /* Allows elements to move into a new line if necessary */
   margin-bottom: 20px;
 }
 
 .checkbox-group > div, .radio-group > div {
   display: flex;
-  align-items: center; /* Alineación vertical de input y label */
-  gap: 5px; /* Espacio entre input y label */
+  align-items: center; /* Vertical alignment for input and label */
+  gap: 5px; /* Spacing between input and label */
 }
 
 input[type="checkbox"], input[type="radio"] {
-  margin: 0; /* Eliminar márgenes extra */
-  vertical-align: middle; /* Alinear verticalmente con el texto */
-  width: auto; /* Evitar que los inputs se estiren */
+  margin: 0; /* Delete extra margins */
+  vertical-align: middle; /* Align vertically with the text */
+  width: auto; /* Avoid inputs stretching */
 }
 
 label {
-  margin: 0; /* Eliminar márgenes extra */
-  text-align: left; /* Asegura que el texto de los labels esté alineado a la izquierda */
-}
-
-/* Additional Styles for Better Spacing */
-br {
-  display: none; /* Opcional: Ajusta esto si es necesario */
+  margin: 0; /* Delete extra margins */
+  text-align: left; /* Ensures label's text is aligned to the left */
 }
 
 #survey-form {
